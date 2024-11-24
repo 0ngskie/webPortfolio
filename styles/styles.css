@@ -30,13 +30,6 @@ header ul li a:hover{
     background-color: #FF4200;
     color: black;
 }
-.home{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 800px;
-    background-image: linear-gradient(left top,#000000, #c89116);
-}
 .profile{
     display: flex;
     align-items: center;
@@ -92,7 +85,13 @@ h1,h2, .profileDescription p{
     width: 80px;
     height: 80px;
 }
+
 .about{
+    width: 80%;
+    height: 30%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    background-color: #6f6f6f80;
     color: #FFF;
     padding: 100px;
     font-size: 40px;
@@ -106,14 +105,7 @@ h1,h2, .profileDescription p{
     margin: 10px;
     align-self: center;
 }
-.about {
-    width: 80%;
-    height: 30%;
-    margin-top: 5%;
-    margin-left: 4%;
-    margin-bottom: 5%;
-    background-color: #6f6f6f80;
-}
+
 /* Connect Me*/
 .connectMe div{
     display: inline-flex;
